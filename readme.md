@@ -1,4 +1,4 @@
-# Starter Kit of the Mobility Intervention Challenge for Epidemics
+# Starter Kit of Mobility Intervention of Epidemics Challenge
 
 ## 1. Download the starter-kit.zip and unzip.
 
@@ -16,6 +16,7 @@ Windows: Please refer to [install-boost-build](https://www.boost.org/doc/libs/1_
 
 ## 3. Start running the code by running `python example.py`.
 
+For other provided intervention templates and APIs, please visit the [documation](https://hzw77-demo.readthedocs.io/en/latest/introduction.html)
 
 ## 4. For submission, please run `python submit.py`, make sure:
 
