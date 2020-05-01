@@ -2,6 +2,10 @@
 
 ## 1. Download the starter-kit.zip and unzip.
 
+```
+git clone https://github.com/prescriptive-analytics/starter-kit.git
+```
+
 ## 2. Install boost library.
 
 Mac OS: `brew install boost`
