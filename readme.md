@@ -19,7 +19,7 @@ Windows: Please refer to [install-boost-build](https://www.boost.org/doc/libs/1_
 
 ## 4. For submission, please run `python submit.py`, make sure:
 
-- you are running the experiments in the way that is required by the competition. 
+- You are running the simulation for 840 time steps (60 simulation days in simulator). 
 
 - This script will run 10 times of the experiments. 
 
