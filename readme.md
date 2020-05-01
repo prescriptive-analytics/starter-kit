@@ -1,6 +1,6 @@
 # Starter Kit of Mobility Intervention of Epidemics Challenge
 
-## 1. Download the starter-kit.zip and unzip.
+## 1. Download the starter-kit.
 
 ```
 git clone https://github.com/prescriptive-analytics/starter-kit.git
