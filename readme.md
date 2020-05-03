@@ -18,8 +18,10 @@ Windows: Please refer to [install-boost-build](https://www.boost.org/doc/libs/1_
 
 For other provided intervention templates and APIs, please visit the [documation](https://hzw77-demo.readthedocs.io/en/latest/introduction.html)
 
-## 4. For submission, please run `python example.py`, make sure:
+## 4. For submission, please run `python submit.py`, make sure:
 
 - You are running the simulation for 840 time steps (60 simulation days in simulator). 
+
+- The experiments will be run for 10 times. All the log will go into one file sub_xxx.txt.
 
 - Please upload the sub_xxx.txt to the website.
