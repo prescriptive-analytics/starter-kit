@@ -6,7 +6,7 @@
 git clone https://github.com/prescriptive-analytics/starter-kit.git
 ```
 
-## 2. 
+## 2. Preparition
 
 ### 2.1 Install boost library.
 
