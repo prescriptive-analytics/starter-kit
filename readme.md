@@ -6,13 +6,24 @@
 git clone https://github.com/prescriptive-analytics/starter-kit.git
 ```
 
-## 2. Install boost library.
+## 2. Preparition
+
+### 2.1 Install boost library.
 
 Mac OS: `brew install boost`
 
 Linux: `sudo apt-get install libboost-dev`
 
 Windows: Please refer to [install-boost-build](https://www.boost.org/doc/libs/1_73_0/more/getting_started/windows.html#install-boost-build)
+
+### 2.2 Specify system and python environment 
+
+Make sure you have compatible python environment that marches with the simulator. Currently, we support the following versions of python:
+
+Mac OS: python 3.6, 3.7
+
+Linux: python 3.6.8
+
 
 ## 3. Start running the code by running `python example.py`.
 
