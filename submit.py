@@ -12,8 +12,9 @@ for round in range(10):
 
     engine.reset()
     for i in range(period):
+        print(engine.get_current_time())
         engine.next_step()
-        engine.get_current_time()
+
         engine.get_man_visited_history(1)
         engine.get_man_infection_state(1)
         engine.get_man_visited_history(1)
