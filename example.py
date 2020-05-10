@@ -10,14 +10,14 @@ engine.reset()
 for i in range(period):
     engine.next_step()
     engine.get_current_time()
-    engine.get_man_visited_history(1)
-    engine.get_man_infection_state(1)
-    engine.get_man_visited_history(1)
+    engine.get_individual_visited_history(1)
+    engine.get_individual_infection_state(1)
+    engine.get_individual_visited_history(1)
     engine.get_area_infected_cnt(1)
 
-    engine.set_man_confine_days({1: 5}) # {manID: day}
-    engine.set_man_quarantine_days({2: 5}) # {manID: day}
-    engine.set_man_isolate_days({3: 5}) # {manID: day}
-    engine.set_man_to_treat({4: True}) # {manID: day}
+    engine.set_individual_confine_days({1: 5}) # {individualID: day}
+    engine.set_individual_quarantine_days({2: 5}) # {individualID: day}
+    engine.set_individual_isolate_days({3: 5}) # {individualID: day}
+    engine.set_individual_to_treat({4: True}) # {individualID: day}
 
 del engine
