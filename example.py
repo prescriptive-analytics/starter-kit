@@ -13,7 +13,7 @@ for i in range(period):
     engine.get_man_visited_history(1)
     engine.get_man_infection_state(1)
     engine.get_man_visited_history(1)
-    engine.get_region_infected_cnt(1)
+    engine.get_area_infected_cnt(1)
 
     engine.set_man_confine_days({1: 5}) # {manID: day}
     engine.set_man_quarantine_days({2: 5}) # {manID: day}
