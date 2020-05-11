@@ -88,7 +88,7 @@ def get_exp_score(I, Q, I_threshold, Q_threshold, Q_weight):
 
 # In[7]:
 def main():
-    df = process_file("10000_sim/test/cnt_test.txt")
+    df = process_file("examples/test/cnt_test.txt")
     I, Q = get_I_Q(df, time)
     least_Q_score = get_least_Q_score(I, Q, I_threshold)
     exp_score = get_exp_score(I, Q, I_threshold, Q_threshold, Q_weight)
