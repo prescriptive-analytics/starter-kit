@@ -4,7 +4,7 @@ import json
 
 period = 840
 
-engine = simulator.Engine(thread_num=1, write_mode="write", specified_run_name="test")
+engine = simulator.Engine(thread_num=1, write_mode="write", specified_run_name="test", scenario="scenario1")
 
 engine.reset()
 for i in range(period):
