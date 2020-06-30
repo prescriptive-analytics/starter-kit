@@ -17,8 +17,8 @@ columns = ['day', 'hospitalizeNum', 'isolateNum', 'quarantineNum', 'confineNum',
        'AccDiscovered', 'AccCritical', 'AccAcquaintance', 'AccStranger', 'measurement'] 
 
 # Here are some consts for metrics
-I_threshold = 1000
-Q_threshold = 100000
+I_threshold = 500
+Q_threshold = 10000
 Q_weight = 1
 time = 59 # The last day of our simulation
 
