@@ -45,11 +45,13 @@ for control_period_ in range(total_period // control_period):
     prob_not_infected_by_discovered = np.ones(10000) # Initialize prob_not_infected_by_discovered
     prob_not_infected_by_discovered[current_symptomatic] = 0
     for loc_id in range(num_areas):
-        his = engine.get_area_visited_history(loc_id)
-        for his_ in his:
+        his = engine.get_area_visited_history(loc_id) # find past individuals that visited the area
+        for his_ in his: # for one hour 
             his_set = set(his_)
-            his_discovered = his_set & current_symptomatic_set
+            # symtomatic/non-symtomatic individuals visited loc_id during this hour
+            his_discovered = his_set & current_symptomatic_set 
             his_healthy = his_set & current_notsymptomatic_set
+            # estimate the probability of being infected by symptomatic individuals
             sum_prob_infected = (1-prob_not_infected_by_discovered[list(his_healthy)]).sum()
             his_prob_infect = prob_s * len(his_discovered) / (len(his_)+1e-7)
             prob_not_infected_by_discovered[list(his_healthy)] *= 1-his_prob_infect
